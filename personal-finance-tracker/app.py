@@ -48,8 +48,8 @@ def calculate_tax(income: list[float]):
     """
     Calculates tax based on income brackets.
     """
-    if income <= 10000:
-        return income * 0.05
+    if income <= 6000:
+        return income * 0.06
     elif income <= 30000:
         return income * 0.2
     else:
